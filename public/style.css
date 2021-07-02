@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Itim', cursive;
 }
 
 .background {
@@ -14,7 +13,7 @@
     color: white;
     text-align: center;
     font-size: 40px;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 .display {
@@ -32,9 +31,9 @@
 .container {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
-    max-width: 300px;
+    grid-template-columns: auto auto auto;
+    max-width: 500px;
+    height: 500px;
 
 }
 
@@ -50,11 +49,11 @@
 }
 
 .playerX {
-    color: #09C372;
+    color: green;
 }
 
 .playerO {
-    color: #498AFB;
+    color: blue;
 }
 
 .controls {
